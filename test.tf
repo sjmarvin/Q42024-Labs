@@ -7,8 +7,8 @@ terraform {
 }
 
 provider "equinix" {
-  client_id     = "OzQb6aCHACceO5DVlKMXFPdiyRnPZfAXWAU9FWrw5DPInNKk"
-  client_secret = "LkAbtrR5tYGayfSYEp6AV1PBHHecEFRkejvQnmvuy8gNSFGFcZa1bKcHozFGymd7"
+  client_id     = "my_client_id"
+  client_secret = "my_client_secret"
 }
 ## Remove data fields and hardcode account number "1" in all account_number fields, instead
 ## data "equinix_network_account" "sv" {

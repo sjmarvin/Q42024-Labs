@@ -1,4 +1,3 @@
-
 variable "auth_token" {
   type        = string
   description = "8RVYhkYjErdgYwb3u4Fo8HFcVuvxegrg" ##Equinix Metal API key
